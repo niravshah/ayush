@@ -18,7 +18,7 @@ module.exports = {
    */
   loading: {color: '#3B8070'},
   css: [
-    { src: 'bulma/bulma.sass', lang: 'sass' },
+    { src: '~/assets/css/bulma.scss', lang: 'scss' },
     {src: 'font-awesome/scss/font-awesome.scss', lang: 'scss'}
   ],
   /*
