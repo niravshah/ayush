@@ -1,6 +1,11 @@
 @import '~bulma/sass/utilities/initial-variables';
 @import '~bulma/sass/utilities/functions';
-// customize styles
+
+@import "partials/_fonts";
+
+
 $black: #343434;
+$family-primary: $roboto;
+
 
 @import '~bulma';

@@ -3,14 +3,15 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'frontend',
+    title: 'Ayushway',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: 'Nuxt.js project'}
+      {hid: 'description', name: 'description', content: 'Ayushway Traditional Wellness'}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+      {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato|Roboto|Slabo+27px'},
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.png'}
     ]
   },
   /*
@@ -18,7 +19,8 @@ module.exports = {
    */
   loading: {color: '#3B8070'},
   css: [
-    { src: '~/assets/css/bulma.scss', lang: 'scss' },
+    {src: '~/assets/css/bulma.scss', lang: 'scss'},
+    {src: '~/assets/css/main.scss', lang: 'scss'},
     {src: 'font-awesome/scss/font-awesome.scss', lang: 'scss'}
   ],
   /*
