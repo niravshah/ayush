@@ -1,0 +1,28 @@
+{
+  "name": "ayushway",
+  "homepage": "https://github.com/niravshah/ayush.git",
+  "description": "ayushway",
+  "repository": "https://github.com/niravshah/ayush.git",
+  "author": "Nirav Shah",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "cross-env NODE_ENVIRONMENT=production node index"
+  },
+  "dependencies": {
+    "@koa/cors": "2",
+    "cross-env": "^5.1.3",
+    "dotenv": "^5.0.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-helmet": "^3.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-respond": "^1.0.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
